@@ -2,9 +2,16 @@
   "name": "vite-plugin-starter",
   "version": "1.0.0",
   "description": "this is vite plugin template",
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "keywords": [
+    "vite-plugin",
+    "vite"
+  ],
+  "license": "MIT",
+  "author": "aibayanyu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistjs/vite-plugin-starter.git"
+  },
   "scripts": {
     "dev:playground": "vite dev playground",
     "build:playground": "vite build playground",
@@ -15,6 +22,9 @@
     "prepare": "husky install",
     "test:run": "vitest run"
   },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
@@ -22,19 +32,9 @@
     },
     "./package.json": "./package.json"
   },
-  "keywords": [
-    "vite-plugin",
-    "vite"
-  ],
   "files": [
     "dist"
   ],
-  "license": "MIT",
-  "author": "aibayanyu",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mistjs/vite-plugin-starter.git"
-  },
   "directories": {
     "test": "test"
   },
@@ -56,7 +56,6 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.5.0",
     "magic-string": "^0.26.7",
-    "pnpx": "^0.0.1",
     "typescript": "^5.1.5",
     "unbuild": "^1.2.1",
     "vite": "^4.3.9",

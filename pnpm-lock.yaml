@@ -35,9 +35,6 @@ devDependencies:
   magic-string:
     specifier: ^0.26.7
     version: 0.26.7
-  pnpx:
-    specifier: ^0.0.1
-    version: 0.0.1
   typescript:
     specifier: ^5.1.5
     version: 5.1.5
@@ -3885,11 +3882,6 @@ packages:
   /pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
-    dev: true
-
-  /pnpx@0.0.1:
-    resolution: {integrity: sha512-mBRUYL3Stk3D9Lm2Bpk9hpCeo9X1QcFUTfwyBEjVDJpI/1/xOxruz5nHJuQLnaBWddAI+iNgo/2qY0qt0Nnf/w==}
-    hasBin: true
     dev: true
 
   /postcss-selector-parser@6.0.13:
