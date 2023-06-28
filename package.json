@@ -1,13 +1,13 @@
 {
   "name": "@m-f2e/vite-plugin-css-injected-bundle",
-  "version": "0.0.1",
-  "description": "this is vite plugin template",
+  "version": "0.0.2",
+  "description": "vite plugin将css注入js",
   "keywords": [
     "vite-plugin",
     "vite"
   ],
   "license": "MIT",
-  "author": "aibayanyu",
+  "author": "mz 16619930394@163.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mistjs/vite-plugin-starter.git"
@@ -33,7 +33,8 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "directories": {
     "test": "test"

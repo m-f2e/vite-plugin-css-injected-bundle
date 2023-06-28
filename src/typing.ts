@@ -1,3 +1,3 @@
 export interface StarterOptions{
-  test?: string
+  styleId: string
 }

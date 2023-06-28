@@ -33,6 +33,28 @@ export default defineConfig({
 })
 ```
 
+给样式添加id
+```ts
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import vueJsx from '@vitejs/plugin-vue-jsx'
+import { VitePluginCssInjectedBundle } from '../src'
+
+export default defineConfig({
+  plugins: [
+    vue(),
+    vueJsx(),
+    VitePluginCssInjectedBundle({ styleId: 'vite-js' }),
+  ],
+  resolve: {
+    alias: {
+      '@': '.',
+    },
+  },
+})
+```
+
+
 ## 项目
 
 ### test

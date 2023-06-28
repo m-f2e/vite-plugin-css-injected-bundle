@@ -1,6 +1,7 @@
 import type { Plugin } from 'vite'
+import type { StarterOptions } from './typing'
 
-const VitePluginCssInjectedBundle = (): Plugin => {
+const VitePluginCssInjectedBundle = (options?: StarterOptions): Plugin => {
   let styleCode = ''
   return {
     name: 'vite-plugin-css-injected-bundle',
@@ -29,6 +30,9 @@ const VitePluginCssInjectedBundle = (): Plugin => {
             try {
               var elementStyle = document.createElement('style'); 
               elementStyle.appendChild(document.createTextNode(${JSON.stringify(styleCode.trim())}));
+            ${
+  options?.styleId ? `elementStyle.id = '${options?.styleId}'` : ''
+}
               document.head.appendChild(elementStyle);
             } catch(e) {
               console.error(\'vite-plugin-css-injected-bundle\', e);
