@@ -41,9 +41,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "homepage": "https://github.com/m-f2e/vite-plugin-css-injected-bundle.git#readme",
   "packageMananger": "pnpm@8.6.3",
   "bugs": {
-    "url": "https://github.com/mistjs/vite-plugin-starter/issues"
+    "url": "https://github.com/m-f2e/vite-plugin-css-injected-bundle/issues"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.3.0",
@@ -64,6 +65,5 @@
   },
   "lint-staged": {
     "*.{ts,tsx,js,vue}": "eslint . --fix"
-  },
-  "homepage": "https://github.com/mistjs/vite-plugin-starter#readme"
+  }
 }
