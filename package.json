@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-starter",
-  "version": "1.0.0",
+  "name": "@m-f2e/vite-plugin-css-injected-bundle",
+  "version": "0.0.1",
   "description": "this is vite plugin template",
   "keywords": [
     "vite-plugin",
