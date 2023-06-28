@@ -12,16 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/mistjs/vite-plugin-starter.git"
   },
-  "scripts": {
-    "dev:playground": "vite dev playground",
-    "build:playground": "vite build playground",
-    "preview": "vite preview playground",
-    "test": "vitest",
-    "build": "unbuild",
-    "stub": "unbuild --stub",
-    "prepare": "husky install",
-    "test:run": "vitest run"
-  },
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -36,6 +26,16 @@
     "dist",
     "README.md"
   ],
+  "scripts": {
+    "dev:playground": "vite dev playground",
+    "build:playground": "vite build playground",
+    "preview": "vite preview playground",
+    "test": "vitest",
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "prepare": "husky install",
+    "test:run": "vitest run"
+  },
   "directories": {
     "test": "test"
   },
